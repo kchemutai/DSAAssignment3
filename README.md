@@ -61,3 +61,10 @@ Part 2: Hashing with Chaining
    o Effective Hash Function: Use a well-distributed hash function to minimize collisions and ensure even key distribution.
    o Alternative Collision Handling: Consider advanced techniques like open addressing or cuckoo hashing to handle collisions efficiently.
    By managing the load factor and using effective hashing techniques, a hash table can maintain close to constant-time performance for insertions, searches, and deletions, even as it grows.
+
+How to run the Code.
+
+1. For the comparisons between deterministic quicksort and randomized quicksort,
+   from the root directory, run python test_sorting.py which runs all the test cases.
+
+2. For the hash table run python hash_table.py from the root directory.
